@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/proyecto2.css">
+    <link rel="icon" type="icon" href="img/favicon.ico">
+    <link 
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="Js/menu.js"></script>
+     <script src="Js/tiempo_fecha.js"></script>
+    <title>Mi portafolio</title>
+</head>
+<body>
+    <header class="cambio">
+        <div class="titulo"> 
+            <div id="reloj"class="digital" >
+                <script >
+                  document.write("Hora:"+ getHours(),"Minutos: "+ getMinutes(),"Segundos: "+ getSeconds());
+                </script>
+            </div>      
+            <img class="logo" src="img/perfil-logo.jpg"> 
+            <div class="encabezado">
+             <h1>Marcela Liliana Maidana</h1>
+                 <div class="btn_menu"><a>menu</a></div>
+            </div> 
+          <div id="fecha" class="digitalizado">
+             <script >
+                document.write(dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' + meses[fecha.getMonth()] + ' de ' + fecha.getUTCFullYear());
+             </script>
+          </div> 
+        </div>
+          <nav class="menu">
+             <ul class="navigation">
+              <li class="indicador"><a href="index.html"><div class="colorear">Sobre mi</div></a></li>  
+              <li class="link"><a href="skills.html">Skills</a></li>                        
+              <li class="link"><a href="Proyectos.html">Proyectos</a></li>   
+              <li class="link"><a href="formacionConFlip.html">Formación </a></li>          
+             </ul>
+          </nav>               
+     </header>
+      <main>
+     <section class="projects-container" id="projects">
+
+      <h4 class="projects__titulo"> Mis Proyectos</h4>
+
+      <div class="projects">
+  
+        <div class="projects__container">
+          <a href="https://marcela-create.github.io/Challenge-encriptadorMarce/"class="projects__container-link" target="_blank"> 
+  
+            <img class="projects__container-imagen" src="img/encriptador.jpg" alt="Encriptador">
+  
+            <div class="projects__container-repositorio">
+  
+              <a class="repositorio" href="https://github.com/Marcela-create/Challenge-encriptadorMarce" target="_blank"> repositorio</a>
+  
+            </div>
+            
+          </a>
+        </div>
+  
+        <div class="projects__container">
+          <a href="https://juego-de-la-emocion-coach-educativo.netlify.app/" class="projects__container-link" target="_blank">
+  
+            <img class="projects__container-imagen" src="img/emocion.jpg" alt="Encriptador">
+  
+            <div class="projects__container-repositorio">
+  
+              <a class="repositorio" href="https://github.com/Marcela-create/Juego-de-la-emocion-coach-eductivo" target="_blank"> repositorio</a>
+  
+            </div>
+            
+          </a>
+        </div>
+  
+        <div class="projects__container">
+          <a href="https://barberia-alura-marcela.netlify.app/" class="projects__container-link" target="_blank">
+  
+            <img class="projects__container-imagen" src="img/barberia.jpg" alt="Encriptador">
+  
+            <div class="projects__container-repositorio">
+  
+              <a class="repositorio" href="https://github.com/Marcela-create/Barberia-Alura" target="_blank" >repositorio</a>
+  
+            </div>
+            
+          </a>
+        </div>
+
+        <div class="projects__container">
+          <a href="https://pagina-apeperia-empresa-crea-aplicaci.netlify.app/" class="projects__container-link" target="_blank">
+  
+            <img class="projects__container-imagen" src="img/apeperia.jpg" alt="Encriptador">
+  
+            <div class="projects__container-repositorio">
+  
+              <a class="repositorio" href="https://github.com/Marcela-create/pagina-apeperia-empresa-creacion-aplicaciones/tree/ph-page" target="_blank">repository</a>
+  
+            </div>
+            
+          </a>
+        </div>
+  
+        <div class="projects__container">
+          <a href="https://mini-alura-cursos-flex-box.netlify.app/" class="projects__container-link" target="_blank">
+  
+            <img class="projects__container-imagen" src="img/minialura.jpg" alt="Encriptador">
+  
+            <div class="projects__container-repositorio">
+  
+              <a class="repositorio" href="https://github.com/Marcela-create/Mini-alura-cursos-marce/tree/ph-page" target="_blank">repository</a>
+  
+            </div>
+            
+          </a>
+        </div>
+  
+        <div class="projects__container">
+          <a href="https://arquitectura-con-paginas-de-recetas.netlify.app/" class="projects__container-link" target="_blank">
+  
+            <img class="projects__container-imagen" src="img/recetas.jpg" alt="Encriptador">
+  
+            <div class="projects__container-repositorio">
+  
+              <a class="repositorio" href="https://github.com/Marcela-create/arquitectura-en--pagina-con-recetas" target="_blank">repository</a>
+  
+            </div>
+            
+          </a>
+        </div>
+
+      </div>
+      
+
+    </section>
+
+
+   
+
+  </main>
+
+
+
+</body>
+<footer>
+    <div class="iconos" >
+      <img src="img/pngwing.com.png" width="150px" title="Revisa mis repositorios">
+     <a target="_self" class="boton"  href="https://github.com/Marcela-create"><img src="img/logo-GitHub.png"width="200" height="150" title="Visita mis repositorios"></a>
+     <div class="float-nav">
+      <div id="hashLink">
+              <div class="main-nav-2">
+        <ul>
+          <li>
+            <div class="wa-icons">
+              <a href="https://api.whatsapp.com/send?phone=5492262539414&text=Hola%20,te%20respondo%20por
+                      %20whatsapp%20gestiona%20tu%20consulta%20por%20este%20canal." target="_blank" rel="nofollow noopener noreferrer" title="contáctame por whatsapp">
+                <img src="img/whatsapp.png" width="80px" style="padding: right 40px;">
+              </a>
+             </div>
+          </li>
+              <li>
+            <div class="wa-icons">
+              <a href="https://t.me/MarcelaMaidana" target="_blank" rel="nofollow noopener noreferrer" title="Contáctame por Telegram">
+                <img src="img/telegram.png" width="80px" style="padding: right 40px;">
+              </a>
+             </div>
+          </li>
+      <li>
+            <div class="wa-icons">
+              <a href="mailto:marceladeneco@hotmail.com?" subject="enlace HTML" title="Escribeme un Email">
+                <img src="img/email.jpg" width="80px" style="padding: right 40px;"></a>
+              </a>
+             </div>
+          </li>
+        </ul>
+      </div>
+            <a href="#" class="cerrar"><img src="img/cerrar.png"width=110px" style="padding: right 40px;" title="Cierra"></a>
+        </div>
+      </div>
+      
+      <a class="float-nav-2" href="#hashLink"><img src="img/desplegar2b.jpg"width="90px" style="padding-right:10px;" title="Haz click y contáctame" class="abrir"></a>           
+    </div>
+    <p class="copyright">&copy Copyright-derechos reservados -2023 -Developed by Marcela Maidana</p>
+        </footer>
+     
+    </html>
