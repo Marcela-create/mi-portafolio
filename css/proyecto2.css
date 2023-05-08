@@ -1,5 +1,5 @@
 .projects{
-    background: var(--fondo);
+    background: rgb(154, 150, 154);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background: var(--fondo);
+    background:  rgb(154, 150, 154);
     gap: 3rem;
     text-align: center;
     
